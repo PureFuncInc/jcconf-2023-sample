@@ -1,4 +1,4 @@
-package com.jcconf
+package com.example
 
 import io.quarkus.test.junit.QuarkusIntegrationTest
 

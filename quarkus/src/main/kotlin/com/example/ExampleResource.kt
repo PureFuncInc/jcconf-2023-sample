@@ -1,4 +1,4 @@
-package com.jcconf
+package com.example
 
 import jakarta.ws.rs.GET
 import jakarta.ws.rs.Path
@@ -10,5 +10,5 @@ class ExampleResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    fun hello() = "Hello JCConf!"
+    fun hello() = "Hello from RESTEasy Reactive"
 }
